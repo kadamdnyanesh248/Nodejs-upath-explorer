@@ -1,0 +1,45 @@
+{
+  "name": "in-memory-todo",
+  "version": "0.1.0",
+  "description": "An In memory todo for Logged in and not Logged in users",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auth0/nodejs-jwt-authentication-sample.git"
+  },
+  "keywords": [
+    "jwt",
+    "auth0"
+  ],
+  "author": "Martin Gontovnikas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auth0/in-memory-todo/issues"
+  },
+  "homepage": "https://github.com/auth0/in-memory-todo",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.6.5",
+    "compression": "^1.0.11",
+    "errorhandler": "^1.1.1",
+    "express-jwt": "^0.3.1",
+    "jsonwebtoken": "^5.0.1",
+    "lodash": "^2.4.1",
+    "morgan": "^1.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.0.3",
+    "sequelize": "^5.21.7"
+  }
+}
